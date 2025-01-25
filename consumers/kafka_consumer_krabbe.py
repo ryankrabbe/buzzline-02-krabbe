@@ -55,13 +55,13 @@ def process_message(message: str) -> None:
     Args:
         message (str): The message to process.
     """
-    logger.info(f"Processing message: {message}")
+    logger.warning(f"Processing message: {message}")
     if "drive" in message.lower():
-        logger.info("ALERT: That drive went 300 yards!")
+        logger.warning("ALERT: That drive went 300 yards!")
     elif "mulligan" in message.lower():
         logger.warning("How many mulligans is that today?")
     elif "hard" in message.lower():
-        logger.info("Under 1% of golfers are scratch!")
+        logger.warning("Under 1% of golfers are scratch!")
     elif "putt" in message.lower():
         logger.warning("At least it wasn't a four putt!")
     else:
