@@ -1,17 +1,10 @@
-# buzzline-02-case
+# buzzline-02-krabbe
 
-Streaming data is often too big for any one machine. 
-A streaming platform helps organize our pipelines.
+# Golf Theme - Kafka Consumer Project
 
-A common pattern for managing streaming pipelines is publish-subscribe, similar to how Twitter operates:
+In this project, we use Apache Kafka, a popular, open-source streaming platform. I added my own unique "golf" Kafka producer and consumer scripts to perform real time data streaming and analytics using Kafka
 
-- Producers publish streaming information.
-- Consumers subscribe to specific "topics" to process, analyze, and generate alerts based on detected conditions.
-
-In this project, we use Apache Kafka, a popular, open-source streaming platform.
-We write producers that send data to topics and consumers that read from topics.
-
-> Kafka needs space - it's big. We'll use the Windows Subsystem for Linux on Windows machines. 
+Below outlines how to install Kafka and the tasks that were followed during this project.
 
 ## Task 1. Install and Start Kafka (using WSL if Windows)
 

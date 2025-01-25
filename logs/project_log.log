@@ -606,3 +606,7 @@
 2025-01-24 15:10:59.318 | WARNING  | __main__:generate_messages:82 - Producer interrupted by user.
 2025-01-24 15:10:59.319 | INFO     | __main__:generate_messages:87 - Kafka producer closed.
 2025-01-24 15:10:59.320 | INFO     | __main__:main:128 - END producer.
+2025-01-24 15:11:00.508 | INFO     | __main__:process_message:58 - Processing message: Not another three putt.
+2025-01-24 15:11:00.509 | WARNING  | __main__:process_message:66 - At least it wasn't a four putt!
+2025-01-24 15:11:00.509 | INFO     | __main__:process_message:58 - Processing message: Put me down for a double bogey.
+2025-01-24 15:11:00.509 | INFO     | __main__:process_message:68 - Just another day on the links: Put me down for a double bogey.
